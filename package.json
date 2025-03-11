@@ -2,13 +2,14 @@
   "name": "avatarbuilder",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://mseiser.github.io/avatarBuilder/",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 8080",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@react-three/drei": "^10.0.4",
