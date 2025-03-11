@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <Canvas camera={{position: [3,3,3]}}>
-      <color attach="background" args={['lightblue']}/>
+      <color attach="background" args={['hsl(208, 22%, 33%)']}/>
       <OrbitControls/>
       <mesh>
         <boxGeometry args={[2, 2, 2]} />
